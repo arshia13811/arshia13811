@@ -1,4 +1,8 @@
-### Hi there 👋
+<p>
+  
+## 👋Welcome to Arshia's kingdom 👋
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=3D4BF7&width=435&lines=I+am+studying+web+development.;I+always+do+my+BEST!+%F0%9F%94%A5)](https://git.io/typing-svg)
+</p>
 
 - 🔭 I’m currently working on web-development
 - 🌱 I’m currently learning React, javascript, API
