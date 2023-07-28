@@ -1,5 +1,14 @@
-function interest(principal, rate= 3.5, years = 5){
-    return((principal * rate)/100) * years; 
+// to declare variables
+
+
+function start(){
+    for(var i=0;i<5;i++){
+        console.log(i);
+    }
+    console.log(i);
 }
-// if the user did not pass an arg then take a default value
-console.log(interest(100000, 3.5, 5));
+
+// var = function-scoped
+// let,const = block-scoped
+
+start()
