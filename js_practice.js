@@ -1,17 +1,7 @@
-// you can call the function (declaration) before being declared
-walk();
-// funciton declaration
-function walk(){
-    console.log('walk')
-}
+const numbers = [1, -1, 2, 3]
 
-// function expression
-let run = function(){
-    console.log('run');
-};
+let sum = numbers.reduce(function(accumulator, currentValue){
+    return accumulator + currentValue;
+} , 0)
 
-// put ; in the end of function expression, you can also name the function
-
-
-run();
-
+console.log(sum);
