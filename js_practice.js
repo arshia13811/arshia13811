@@ -15,19 +15,26 @@
 // all objects in js has a prototype/father
 
 
-let person = {name : 'mohamd'}
-// console.log(person);
+function Circle(radius){
+// instance memebers
+    this.radius = radius;
+    this.move = function(){
+        console.log('move')
+    }
+}
 
-let objectbase = Object.getPrototypeOf(person);
+// prototype memebers
+Circle.prototype.draw = function(){
+    console.log('draw');
+}
 
-let descriptor = Object.getOwnPropertyDescriptor(objectbase, 'toString');
+const circle = new Circle(1);
 
-Object.defineProperty(person, 'name',{
-    writable : true,
-    enumerable : true
+//  this only returns the instance members
+console.log(Object.keys(circle))
 
-});
-console.log(Object.keys(person))
 
-person.name = 'fali';
-console.log(person)
+
+for(let key in circle){
+    console.log(key)
+}
