@@ -6,4 +6,4 @@
 - 💬 Ask me about anything you want(:
 - 📫 How to reach me: arshia.tey1@gmail.com
 
-![](./profile-3d-contrib/profile-night-view.svg)
+![](./profile-3d-contrib/profile-night-rainbow.svg)
