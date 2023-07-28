@@ -1,26 +1,17 @@
-
-// method -> obj
-
-// function(search engine, node) -> gloval(window, global)
-
-
-// 'this' refers to the new empty obj
-function PlayVideo(title){
-    this.title = title;
-    console.log(this);
+// you can call the function (declaration) before being declared
+walk();
+// funciton declaration
+function walk(){
+    console.log('walk')
 }
 
-new PlayVideo('abc')
+// function expression
+let run = function(){
+    console.log('run');
+};
+
+// put ; in the end of function expression, you can also name the function
 
 
-const video = {
-    title : 'a',
-    tags : ['a', 'b', 'c'],
-    showTags(){
-        this.tags.forEach(function(n){
-            console.log(this, n)
-        })
-        },
-    }
+run();
 
-video.showTags()
