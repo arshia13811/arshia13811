@@ -16,8 +16,18 @@
 
 
 let person = {name : 'mohamd'}
-console.log(person);
+// console.log(person);
 
-for(let key in person){
-    console.log(Object.keys(person))
-}
+let objectbase = Object.getPrototypeOf(person);
+
+let descriptor = Object.getOwnPropertyDescriptor(objectbase, 'toString');
+
+Object.defineProperty(person, 'name',{
+    writable : true,
+    enumerable : true
+
+});
+console.log(Object.keys(person))
+
+person.name = 'fali';
+console.log(person)
