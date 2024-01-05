@@ -1,7 +1,7 @@
 <p>
   
 ## 👋Welcome to Arshia's github 👋
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=3D4BF7&width=700&lines=I+am+learning+web+development.;In+God+we+trust!+All+others+must+bring+data%F0%9F%94%A5;AI+is+life)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=3D4BF7&width=700&lines=In+God+we+trust!+All+others+must+bring+data%F0%9F%94%A5;AI+is+life)](https://git.io/typing-svg)
 </p>
 
 [Backend] <br>
